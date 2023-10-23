@@ -1,0 +1,93 @@
+/* Style for error messages */
+.alert.alert-danger {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for success messages */
+.alert.alert-success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the comment form */
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-form form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for comments */
+.comment {
+    border: 2px solid #000;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment table {
+    width: 100%;
+}
+
+.comment p {
+    margin: 10px 0;
+}
+
+.comment span {
+    font-weight: bold;
+}
+
+.comment .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment .btn:hover {
+    background-color: #0056b3;
+}
+
+.reply-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reply-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reply-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
